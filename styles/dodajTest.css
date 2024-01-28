@@ -1,0 +1,123 @@
+body{
+    background-color: pink;
+}
+.settings-container {
+    width: 70%;
+    /*max-width: 600px;*/
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  div a#nazad{
+    margin-top: 60px;
+    margin-left: 60px;
+
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .settings-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+
+  div.form-group  button#save{
+    display: block;
+    margin: 0 auto; 
+
+    width: 150px;
+    height: 40px;
+    border: 3px solid white;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+  }
+  
+  label {
+    width: 220px;
+    
+    margin-bottom: 5px;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="datetime-local"],
+  textarea {
+    width: 55%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 35px;
+  }
+
+  input[type="checkbox"]{
+    margin: 5px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .settings-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 90px;
+  }
+  
+  .settings-button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: x-large;
+    text-decoration: none;
+  }
+  
+ /* .settings-button:hover {
+    
+  }*/
+  
+  input[type="checkbox"] {
+    margin-right: -19px;
+  }
+
+  .navigation-underline {
+    width: 100%; 
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  

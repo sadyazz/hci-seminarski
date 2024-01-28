@@ -4,8 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dodaj test</title>
+    <link rel="stylesheet"  href="../styles/dodajTest.css">
+    <link rel="stylesheet"  href="../styles/style.css">
+    
+
 </head>
 <body>
-    
+
+  
+  <div class="settings-container">
+      <a href="testovi.html" id="nazad">< Nazad</a>
+        <div class="settings-header">
+          
+          <div class="settings-buttons">
+            <a href="dodajTest.html" class="settings-button">Postavke</a>
+            <a href="questions.html" class="settings-button">Pitanja</a>
+            
+        </div>
+        <div class="navigation-underline"></div>
+        </div>
+
+        <div class="settings-form">
+          <div class="form-group">
+            <label for="name">Ime:</label>
+            <input type="text" id="name" placeholder="Name">
+          </div>
+
+          <div class="form-group">
+            <label for="description">Opis:</label>
+            <textarea id="description" placeholder="Description"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="start-date">Početak testa:</label>
+            <!-- <input type="text" id="start-date" placeholder="Start Date"> -->
+            <input type="datetime-local" id="start-date" placeholder="Izaberite datum i vreme">
+          </div>
+
+          <div class="form-group" id="krajTesta">
+            <label for="end-date">Kraj testa:</label>
+            <input type="datetime-local" id="end-date" placeholder="End Date">
+            <input type="checkbox" id="checkbox1" onclick="handleCheckboxChange('checkbox1', 'end-date')" checked>
+          </div>
+
+          <div class="form-group">
+            <label for="time-limit">Vremensko ograničenje:</label>
+            <input type="number" id="time-limit" placeholder="Minute">
+            <input type="checkbox" id="checkbox2" onclick="handleCheckboxChange('checkbox2', 'time-limit')" checked>
+          </div>
+          
+          <div class="form-group">
+            <button id="save">Spasi</button>
+          </div>
+        </div>
+      </div>
+
+      <script src="script.js"></script>
 </body>
 </html>
