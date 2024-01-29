@@ -1,0 +1,199 @@
+body{
+    background-color: pink;
+}
+.settings-container {
+    width: 70%;
+    /*max-width: 600px;*/
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  div a#nazad{
+    margin-top: 60px;
+    margin-left: 60px;
+
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .settings-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .settings-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+
+  div.form-group  button#save{
+    display: block;
+    margin: 0 auto; 
+
+    width: 150px;
+    height: 40px;
+    border: 3px solid white;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+  }
+
+  button#dodaj{
+    margin: 0 auto; 
+
+    width: 150px;
+    height: 30px;
+    border: 3px solid white;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    font-size: smaller;
+
+    margin-bottom: 25px;
+  }
+
+  .kontejner{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    width: 220px;
+    
+    margin-bottom: 5px;
+    color: white;
+    font-size: larger;
+    /*font-weight: bold;*/
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="datetime-local"],
+  textarea {
+    width: 55%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 35px;
+  }
+
+
+
+  input[type="checkbox"]{
+    margin: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .settings-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 90px;
+  }
+  
+  .settings-button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: x-large;
+    text-decoration: none;
+  }
+
+  .label-container{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .settings-form label.checkbox-label, label.broj-label{
+    padding: 10px 160px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    /*margin-left: 10px;*/
+    font-size: medium;
+    width: auto;
+    margin-bottom: 5px;
+  }
+
+  .checkbox-label input {
+    margin-left: 10px;
+  }
+  .checkbox-label {
+    display: flex;
+    align-items: center; /* Centralizuje sadržaj po vertikali */
+}
+
+.checkbox-label input {
+    margin-right: 5px; /* Dodajte razmak između checkboxa i teksta po potrebi */
+}
+
+.checkbox-text {
+    display: inline-block;
+}
+  
+ /* .settings-button:hover {
+    
+  }*/
+  
+  input[type="checkbox"] {
+    margin-right: -19px;
+  }
+
+  .navigation-underline {
+    width: 100%; 
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+  .question-container { 
+    padding: 20px 0 20px 0; 
+    margin-bottom: 20px;
+    background-color: white;
+    border-radius: 15px;
+    cursor: pointer;
+} 
+
+.question-container .question-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.question-container .question-category{
+    padding: 15px 30px 15px 10px;
+}
+
+.question-container .question-number, .question-container .question-text{
+
+    padding: 15px 10px 15px 30px;
+}
+  
