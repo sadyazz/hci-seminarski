@@ -52,6 +52,7 @@ div#login-div{
      padding: 7px;
      color: white;
      background-color: rgb(255, 154, 170);
+     cursor: pointer;
  
  }
  label .username-label, .pass-label{

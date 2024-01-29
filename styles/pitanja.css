@@ -157,6 +157,7 @@ body{
 
 .checkbox-text {
     display: inline-block;
+    margin-left: 25px;
 }
   
  /* .settings-button:hover {
