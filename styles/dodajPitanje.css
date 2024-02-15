@@ -1,0 +1,333 @@
+body{
+    background-color: pink;
+    font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+.settings-container {
+    
+    width: 50%;
+    /*max-width: 600px;*/
+    margin: 0 auto;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 5px;
+  }
+
+  div a#nazad{
+    margin-top: 60px;
+    margin-left: 60px;
+
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  .settings-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  div.settings-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+  }
+  
+  .form-group {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+
+    padding-bottom: 20px;
+    justify-content: center;
+  }
+
+  div.form-group  button#save{
+    display: block;
+    margin: 0 auto; 
+
+    width: 150px;
+    height: 40px;
+    border: 3px solid white;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    font-size: large;
+  }
+
+  /* button#dodaj{
+    margin: 0 auto; 
+
+    width: 150px;
+    height: 30px;
+    border: 3px solid white;
+    background-color: pink;
+    color: white;
+    cursor: pointer;
+    font-size: smaller;
+
+    margin-bottom: 25px;
+  } */
+
+  .kontejner{
+    display: flex;
+    flex-direction: column;
+  }
+  
+
+  
+  input[type="text"],
+  input[type="number"],
+  input[type="datetime-local"],
+  textarea {
+    width: 55%;
+    padding: 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    box-sizing: border-box;
+    height: 35px;
+  }
+
+
+
+  input[type="checkbox"]{
+    margin: 10px;
+  }
+  
+  textarea {
+    height: 100px;
+  }
+  
+  .settings-buttons {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-top: 90px;
+  }
+  
+  .settings-button {
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+    font-size: x-large;
+    text-decoration: none;
+  }
+
+
+ 
+  .settings-form label.checkbox-label, label.broj-label{
+    padding: 10px 160px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+   
+    font-size: medium;
+    width: auto;
+    margin-bottom: 5px;
+  }
+/*
+  .checkbox-label input {
+    margin-left: 10px;
+  }
+  .checkbox-label {
+    display: flex;
+    align-items: center; 
+}
+
+.checkbox-label input {
+    margin-right: 5px;
+}
+
+.checkbox-text {
+    display: inline-block;
+    margin-left: 25px;
+}
+ 
+  .settings-button:hover {
+    
+  }
+
+  input[type="checkbox"] {
+    margin-right: -19px;
+  } */
+
+  .navigation-underline {
+    width: 100%; 
+    border-bottom: 2px solid white;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    display: block;
+  }
+
+
+div .sve-container{
+    background-color: white;
+    border-radius: 1.5%;
+    padding: 15px;
+}
+
+
+  
+
+
+h1 {
+	background-color: #444;
+	color: black;
+	padding: 10px;
+	text-align: center;
+}
+
+h2 {
+	color: black;
+    margin: 0px 0px 10px 0px;
+	padding: 10px;
+}
+
+form.question-types {
+	margin: 0;
+	padding: 10px;
+    display: flex;
+    justify-content: center;
+    color: black;
+    font-size: large;
+}
+
+form.question-types input[type="radio"] {
+    /* margin: 0px 10px; */margin: 10px;
+}
+
+/* form.question-types{
+    display: flex;
+    justify-content: center;
+} */
+
+textarea {
+	width: 100%;
+    border: 2px solid pink;
+
+}
+
+ol {
+	list-style-type: none;
+	padding: 0;
+}
+
+li {
+	margin: 0;
+	padding: 5px;
+    border-radius: 5px;
+}
+
+li:nth-child(even) {
+	background-color: #ffffff;
+}
+
+li:nth-child(odd) {
+	background-color: #ffffff;
+}
+
+li:hover {
+	cursor: pointer;
+}
+
+ input[type="text"] {
+    width: 100%;
+	border: 2px solid pink;
+    height: 40px;
+}
+/*
+input[type="checkbox"] {
+	margin: 5px;
+} */
+
+div.kategorije{
+    display: flex;
+    margin: 20px 10px 5px;
+}
+
+div.kategorije p{
+    padding: 10px;
+    font-size: large;
+}
+
+div.kategorije select{
+    margin: auto;
+    width: 200px;
+    height: 30px;
+    /* margin: 40px 10px; */
+    font-size: large;
+    border: pink 2px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#answerOptions label {
+    color: black;
+    font-size: medium;
+    margin: 0;
+	padding: 5px;
+    border-radius: 5px;
+}
+
+label {
+    margin: 0;
+	padding: 15px;
+    border-radius: 5px;
+  }
+
+  button#dodaj{
+    margin: 10px auto;
+    width: 100%;
+    height: 45px;
+    border: 3px solid white;
+    border-radius: 7px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    font-size: medium;
+  }
+
+  div.button-container{
+    display: flex;
+  }
+
+  button#spasi-button{
+    margin: 10px auto;
+    width: 45%;
+    height: 45px;
+    border: 3px solid rgb(177, 250, 199);
+    border-radius: 7px;
+    background-color: rgb(177, 250, 199);
+    color: black;
+    cursor: pointer;
+    font-size: medium;
+  }
+
+  button#odustani-button{
+    margin: 10px auto;
+    width: 45%;
+    height: 45px;
+    border: 3px solid rgb(254, 166, 166);
+    border-radius: 7px;
+    background-color: rgb(254, 166, 166);
+    color: black;
+    cursor: pointer;
+    font-size: medium;
+  }
+
+  .required::after {
+    content: "*";
+    color: red;
+}

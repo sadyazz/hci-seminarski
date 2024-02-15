@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dodaj test</title>
+    <link rel="stylesheet"  href="../styles/dodajPitanje.css">
+    <link rel="stylesheet"  href="../styles/style.css">
+    
+
+</head>
+<body>
+
+  
+  <div class="settings-container">
+      <a href="pitanja.html" id="nazad">< Nazad</a>
+        <div class="settings-header">
+         
+        </div>
+
+        <div class="sve-container">
+
+        <div class="settings-form">
+            
+	    <form class="question-types">
+		    <input type="radio" name="questionType" id="multipleChoice" value="multipleChoice" checked>
+            Višestruki izbor
+		    <br>
+		    <input type="radio" name="questionType" id="trueFalse" value="trueFalse">
+			    Tačno / Netačno
+		    <br>
+		
+	    </form>
+	
+	    <h2 class="required">Unesite svoje pitanje</h2>
+	    <textarea id="question" name="question" required></textarea>
+
+	
+        <div class="kategorije">
+	        <p>Kategorija:</p>
+            <select id="kategorija">
+                <option value="option1">Opcija 1</option>
+                <option value="option2">Opcija 2</option>
+                <option value="option3">Opcija 3</option>
+            </select>
+        </div>
+
+    </div>
+
+
+
+
+
+    <h2>Dodajte opcije za višestruki izbor</h2>
+	<ol id="answerOptions">
+		<li class="required">
+			<input type="checkbox"  name="inputcheck1" required>
+			Ovaj odgovor je tačan
+		</li>
+		<li>
+			<input type="text" name="answer1" required >
+			
+		</li>
+		<li class="required">
+			<input type="checkbox" name="inputcheck2"  requiredS>
+			Ovaj odgovor je tačan
+		</li>
+		<li>
+			<input type="text" name="answer2" required>
+			
+		</li>
+		<!-- <li>
+			<input type="checkbox" name="answer" value="option5">
+			Ova opcija odgovora je tačna
+		</li>
+		<li>
+			<input type="text" name="answer" >
+			
+		</li>
+		<li>
+			<input type="checkbox" name="answer" value="option7">
+			Ova opcija odgovora je tačna
+		</li>
+		<li>
+			<input type="text" name="answer" >
+			
+		</li> -->
+		
+
+        
+        
+        
+        
+    </div>
+    
+     <div>
+        <button id="dodaj">Dodaj još odgovora</button>
+    </div>
+    <div class="button-container">
+        <button id="spasi-button">Spasi</button>
+        <button id="odustani-button">Odustani</button>
+    </div>
+
+</body>
+</html>
+
+
+
+      <script src="script.js"></script>
+</body>
+</html>
