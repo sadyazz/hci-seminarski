@@ -136,7 +136,7 @@ body{
     color: white;
     border: none;
     border-radius: 5px;
-    cursor: pointer;
+    /* cursor: pointer; */
     /*margin-left: 10px;*/
     font-size: medium;
     width: auto;
