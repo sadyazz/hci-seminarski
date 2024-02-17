@@ -7,10 +7,12 @@ var dodajPitanje =()=>{
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-  document.getElementById('dodajTestDugme').addEventListener('click', function() {
-      // Redirect to a different HTML page
+  const button = document.getElementById('dodajTestDugme');
+  if (button) {
+    button.addEventListener('click', function() {
       window.location.href = 'dodajTest.html';
-  });
+    });
+  }
 });
 
 function handleCheckboxChange(checkboxId, elementId) {
@@ -25,9 +27,12 @@ function handleCheckboxChange(checkboxId, elementId) {
 }
 
 //dodajPitanja
+if (window.location.pathname.includes('dodajPitanje.html')) {
 
-const radioButtons = document.querySelectorAll('input[type="radio"]');
-const checkboxes = document.querySelectorAll('.checkbox');
+
+
+// const radioButtons = document.querySelectorAll('input[type="radio"]');
+// const checkboxes = document.querySelectorAll('.checkbox');
 
 // radioButtons.forEach(radioButton => {
 //     radioButton.addEventListener('change', function() {
@@ -49,8 +54,17 @@ const checkboxes = document.querySelectorAll('.checkbox');
 //     });
 // });
 
+document.addEventListener('DOMContentLoaded', function() {
+  var button = document.querySelector('#dodaj');
+  if (button) {
+    button.addEventListener('click', addAnswerOptions);
+  }
+});
+
+//if (document.querySelector('.question-types')) {
 document.querySelector('.question-types').addEventListener('change', function(event) {
   var button = document.querySelector('#dodaj');
+  
   if (event.target.value === 'trueFalse') {
     
     var answerOptions = document.querySelector('#answerOptions');
@@ -99,6 +113,7 @@ document.querySelector('.question-types').addEventListener('change', function(ev
     button.style.display = 'block';
   }
 });
+//}
 
 
 function addAnswerOptions() {
@@ -135,6 +150,7 @@ var button = document.querySelector('#dodaj');
 
 button.addEventListener('click', addAnswerOptions);
 
+//if(document.getElementById("odustani-button")){
 document.getElementById("odustani-button").addEventListener("click", function() {
   var confirmCancel = confirm("Upozorenje:\n\n" +
   "Svi nespremljeni podaci će biti izgubljeni.\n" +
@@ -143,7 +159,9 @@ document.getElementById("odustani-button").addEventListener("click", function() 
     window.location.href = "pitanja.html";
   }
 });
+//}
 
+//if(document.getElementById("spasi-button")){
 document.getElementById("spasi-button").addEventListener("click", function() {
   var pitanje = document.getElementsByName("question")[0].value;
 
@@ -169,28 +187,71 @@ var checkboxes = document.querySelectorAll('input[type="checkbox"], input[type="
   }
   
 });
-
-//prethodniTestovi
+//}
+}
 
 function  stariTestovi (){
   window.location.href = 'prethodniTestovi.html';
 }
 
-// var tdElement = document.querySelector('td');
+//prethodniTestovi
 
-// // Add click event listener
-// tdElement.addEventListener('click', function() {
-//  console.log("radi");
-//   //window.location.href = 'your_other_screen.html';
+if (window.location.pathname.includes('prethodniTestovi.html')) {
+
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   let detaljiLinkovi = document.querySelectorAll('a[href="detaljiStudenta.html"]');
+  
+//   detaljiLinkovi.forEach(link => {
+//     link.addEventListener("click", function(event) {
+//       let prosjek = event.target.parentElement.previousElementSibling.innerText;
+//       sessionStorage.setItem("prosjek", prosjek);
+//     });
+//   });
 // });
 
-var table = document.querySelector('table');
+// document.addEventListener('DOMContentLoaded', function() {
+//   var detaljiLinks = document.querySelectorAll('a[href="detaljiStudenta.html"]');
+//   detaljiLinks.forEach(function(link) {
+//       link.addEventListener('click', function(event) {
+//           var predzadnjiTd = event.target.parentElement.previousElementSibling.previousElementSibling;
+//           localStorage.setItem('prosjek', predzadnjiTd.innerText);
+//       });
+//   });
+// });
 
-// Add click event listener to the parent element
-table.addEventListener('click', function(event) {
-  debugger
-  if (event.target.tagName === 'TD') {
-    console.log("radi");
-    //window.location.href = 'your_other_screen.html';
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   let prosjek = sessionStorage.getItem("prosjek");
+//   console.log("Prosjek:", prosjek);
+//   // Ovdje možete koristiti dobijeni prosjek kako želite
+// });
+
+// document.addEventListener('DOMContentLoaded', function() {
+//   var params = new URLSearchParams(window.location.search);
+//   var prosjek = params.get('prosjek');
+//   if (prosjek) {
+//     console.log('Prosjek:', prosjek);
+//     // Ovdje možete koristiti prosjek kako želite
+//   }
+// });
+
+function handleStudentDetailsClick(event) {
+  console.log("Kliknuto");
+  event.preventDefault();
+  const target = event.target;
+  if (target.tagName.toLowerCase() === 'a') {
+    const studentName = target.parentElement.previousElementSibling.textContent;
+    const studentDetailsPage = window.open('detaljiStudenta.html');
+    studentDetailsPage.onload = function() {
+      const h1Element = studentDetailsPage.document.querySelector('h1');
+      h1Element.textContent += studentName;
+    };
   }
-});
+}
+
+const studentTable = document.getElementById('tabelaStudenata');
+console.log(document.getElementById('tabelaStudenata'));
+studentTable.addEventListener('click', handleStudentDetailsClick);
+}
