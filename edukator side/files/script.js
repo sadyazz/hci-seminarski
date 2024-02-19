@@ -2,6 +2,19 @@ var prijava =()=>{
     window.location.href = 'pocetna.html';
 }
 
+if (window.location.pathname.includes('login.html')) {
+function otvoriStranicu() {
+  var unos = document.getElementById("tipKorisnika").value.toLowerCase();
+  if (unos === "edukator") {
+      window.location.href = "pocetna.html";
+  } else if (unos === "student") {
+      window.location.href = "../../student side/files/pocetna.html";
+  } else {
+      alert("Niste unijeli ispravan tip korisnika. Molimo unesite 'edukator' ili 'student'.");
+  }
+}
+}
+
 var dodajPitanje =()=>{
   window.location.href = 'dodajPitanje.html';
 }
