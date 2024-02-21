@@ -20,6 +20,16 @@ if(window.location.pathname.includes('test1.html')){
     }
 
   function  sljedecePitanje(){
-    window.location.href = 'Test2.html';
+    window.location.href = 'test2.html';
+  }
+}
+
+if(window.location.pathname.includes('test2.html')){
+  function  nazad(){
+    window.location.href = 'test1.html';
+  }
+
+  function  zavrsiTest(){
+    window.location.href = 'detaljiTesta.html';
   }
 }
