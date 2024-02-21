@@ -13,3 +13,13 @@ if(window.location.pathname.includes('startTest.html')){
   window.location.href = 'test1.html';
   }
 }
+
+if(window.location.pathname.includes('test1.html')){
+  function  zavrsiTest(){
+      window.location.href = 'detaljiTesta.html';
+    }
+
+  function  sljedecePitanje(){
+    window.location.href = 'Test2.html';
+  }
+}
