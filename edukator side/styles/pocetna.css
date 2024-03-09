@@ -1,0 +1,348 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: pink;
+    height: 100px;
+    color: white;
+}
+.logo img.log-pic {
+    width: 170px;
+    height: 150px;
+}
+nav{
+    display: flex;
+}
+nav a{
+    margin: 0 10px;
+    padding: 50px;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(240, 78, 105);
+    transition: 0.5s;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+h1{
+    margin: 0px;
+    display: inline;
+}
+img.user-pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 75px;
+}
+
+.landing-tekst{
+    width: 100%;
+    margin-left: 7%;
+    margin-top: 40px;
+    font-size: 15px;
+}
+
+.card{
+
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+
+.card img{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.naslov{
+    position: absolute;
+    margin-left: 38%;
+    margin-top: -33%;
+}
+.brojPolaznika{
+    margin-top: -25%;
+    margin-left: 55%;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(223, 66, 92);
+}
+.broj{
+    margin-top: 25px;
+    margin-left: 110px;
+    font-weight: bold;
+    color: rgb(12, 180, 12);
+}
+.strijelica img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-top: -24%;
+    margin-left: 60%;
+}
+.uOdnosu{
+    margin-left: 45%;
+    margin-top: -6.2%;
+}
+
+.card1{
+
+    width: 400px;
+    height: 200px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+
+.card1 img{
+    margin-top: 25px;
+    width: 100px;
+    height: 100px;
+}
+
+.naslov{
+    position: absolute;
+    margin-left: 38%;
+    margin-top: -33%;
+}
+.brojPolaznika{
+    margin-top: -25%;
+    margin-left: 55%;
+    font-size: 45px;
+    font-weight: bold;
+    color: rgb(223, 66, 92);
+}
+.broj1{
+    margin-top: 25px;
+    margin-left: 130px;
+    font-weight: bold;
+    color: red;
+}
+.strijelica1 img{
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    margin-top: -23%;
+    margin-left: 55%;
+}
+.uOdnosu1{
+    margin-left: 50%;
+    margin-top: -6.2%;
+}
+
+.card2{
+
+    width: 840px;
+    height: 450px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 15%;
+}
+.naslovna{
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background:#ffc0cb;
+    width: 841px;
+    height: 80px;
+    margin-top: -4%;
+    margin-left: -4%;
+}
+
+.naslovna p{
+    position: absolute;
+    margin-top: 25px;
+    margin-left: 50px;
+    font-size: 23px;
+    font-weight: bold;
+    color: white;
+}
+.card2 img{
+    margin-left: 35px;
+}
+
+.card3{
+    width: 760px;
+    height: 350px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 20.3%;
+}
+.card3 p{
+    font-size: 23px;
+    font-weight: bold;
+    margin-left: 5%;
+    margin-top: -2%;
+}
+
+.card3 img{
+    width: 680px;
+    height: 290px;
+
+}
+
+.card4{
+    width: 760px;
+    height: 320px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 53%;
+    margin-top: 2%;
+}
+
+.card4 p{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+div.vertical-line{
+    width: 3px; 
+    background-color: pink; 
+    height: 70%; 
+    float: left;  
+    border-radius: 10px;
+    margin-left: 50%;
+    margin-top: 3%;
+  }
+
+  .card4 img{
+    width: 100px;
+    height: 100px;
+  }
+
+  .card4 .slika1{
+    position: absolute;
+    margin-top: 40px;
+  }
+
+  .card4 .slika2{
+    position: absolute;
+    margin-left: 50%;
+    margin-top: 40px;
+  }
+
+  .ime1 p{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 9%;
+    font-size: 18px;
+  }
+
+  .opis1 p{
+    position: absolute;
+    margin-left: 18%;
+    margin-top: 12%;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+  }
+
+  .ime2 p{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 9%;
+    font-size: 18px;
+  }
+
+  .opis2 p{
+    position: absolute;
+    margin-left: 68%;
+    margin-top: 12%;
+    font-size: 14px;
+    font-weight: 400;
+    color: gray;
+  }
+
+  .star1 img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 22%;
+    margin-left: 20%;
+  }
+
+  .star2 img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 22%;
+    margin-left: 70%;
+  }
+
+
+  .doc1 img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 22%;
+  }
+  .doc2 img{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    margin-top: 22%;
+    margin-left: 50%;
+  }
+  .kursevi p{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 5%;
+    font-size: 16px;
+    color: pink;
+
+  }
+  .review p{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 25%;
+    font-size: 16px;
+    color: pink;
+  }
+
+  .kursevi1 p{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 55%;
+    font-size: 16px;
+    color: pink;
+  }
+  .review1 p{
+    position: absolute;
+    margin-top: 22.5%;
+    margin-left: 75%;
+    font-size: 16px;
+    color: pink;
+  }

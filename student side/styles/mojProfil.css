@@ -1,0 +1,424 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: pink;
+    height: 100px;
+    color: white;
+}
+.logo img.log-pic {
+    width: 170px;
+    height: 150px;
+}
+nav{
+    display: flex;
+}
+nav a{
+    margin: 0 10px;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover {
+    text-decoration: underline;
+    color: rgb(240, 78, 105);
+    transition: 0.5s;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+h1{
+    margin: 0px;
+    display: inline;
+}
+img.user-pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 75px;
+}
+
+.slika img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 400px;
+    height: 800px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.podaci{
+    margin-top: 75px;
+    text-align: left;
+}
+
+.podaci p{
+    margin-top: 10px;
+}
+
+.underline{
+    margin-top: 5px;
+    border: 1px solid rgb(219, 115, 133);
+}
+
+.formular{
+    color: gray;
+}
+
+.ikone img{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.btn img{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn-pozadina{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(240, 78, 105);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-pozadina:hover{
+    background-color:rgb(196, 44, 69) ;
+    transition: 0.5s;
+}
+
+.profil{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card1{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.naslov{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+.dan{
+    position: absolute;
+    top: 160px;
+    left: 920px;
+    padding: 7px;
+    background-color: #f04e69;
+    width: 100px;
+    border-radius: 20px;
+    color: white;
+}
+
+.card1 img{
+    margin-top: 30px;
+}
+
+.card2{
+    margin-top: 30px;
+    margin-left: 50px;
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+.naslov1{
+    text-align: left;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.ikone1 img{
+    margin-top: 5px;
+    width: 30px;
+    height: 30px;
+}
+
+.ikone1 ul li{
+    list-style: none;
+    margin-top: 15px;
+}
+.tekst ul li {
+    list-style: none;
+}
+.tekst{
+    text-align: center;
+}
+.nesto{
+    display: flex;
+}
+
+.nesto p{
+    margin-left: 5px;
+    margin-top: 7px;
+}
+
+.naziv-zadace{
+    width: 20%;
+}
+
+.bar1{
+    width: 50%;
+    height: 11px;
+    background: lightgray;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 13px;
+ }
+
+.inner1{
+    width: 55%;
+    height: 11px;
+    background: #e7657b;
+    border-radius: 20px;
+}
+
+.bar2{
+    width: 50%;
+    height: 11px;
+    background: lightgray;
+    border-radius: 20px;
+    margin-left: 57px;
+    margin-top: 13px;
+ }
+
+.inner2{
+    width: 75%;
+    height: 11px;
+    background: #d33f58;
+    border-radius: 20px;
+}
+
+.bar3{
+    width: 50%;
+    height: 11px;
+    background: lightgray;
+    border-radius: 20px;
+    margin-left: 57px;
+    margin-top: 13px;
+ }
+
+.inner3{
+    width: 90%;
+    height: 11px;
+    background: #b8253d;
+    border-radius: 20px;
+}
+
+.bar4{
+    width: 50%;
+    height: 11px;
+    background: lightgray;
+    border-radius: 20px;
+    margin-left: 35px;
+    margin-top: 13px;
+ }
+
+.inner4{
+    width: 60%;
+    height: 11px;
+    background: #cc4d62;
+    border-radius: 20px;
+}
+
+.postotak{
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+h2{
+    position: absolute;
+    margin-left: 652px;
+    margin-top: 370px;
+}
+
+.card3{
+    width: 30%;
+    height: 100px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 430px;
+}
+
+.card3 img{
+    width: 50px;
+    height: 50px;
+    margin-top: -4px;
+}
+
+.tekst-dokumenta{
+    display: flex;
+}
+.naslov-dokumenta p{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.datum{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -19px;
+}
+
+.card4{
+    width: 30%;
+    height: 100px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 580px;
+}
+
+.card4 img{
+    width: 50px;
+    height: 50px;
+    margin-top: -4px;
+}
+
+.tekst-dokumenta{
+    display: flex;
+}
+.naslov-dokumenta p{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.datum{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -19px;
+}
+
+.card5{
+    width: 30%;
+    height: 100px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 728px;
+}
+
+.card5 img{
+    width: 50px;
+    height: 50px;
+    margin-top: -4px;
+}
+
+.tekst-dokumenta{
+    display: flex;
+}
+.naslov-dokumenta p{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.datum{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -19px;
+}
+
+.more img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -4%;
+}
+
+.card6{
+    width: 23%;
+    height: 456px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+    margin-left: 66%;
+    margin-top: 370px;
+}
+
+.more2 img{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin-left: 75%;
+    margin-top: -6%;
+}
+
+.edukator img{
+    width: 70px;
+    height: 70px;
+}
+.card6-edukator ul li{
+    margin-top: 10px;
+    padding-top: 20px;
+    list-style: none;
+}
+.edukator{
+    margin-top: 18px;
+    display: flex;
+}
+
+.edukator p{
+    margin-left: 15px;
+}
+
+.datum2{
+    position: absolute;
+    margin-left: 250px;
+    margin-top: 60px;
+    color: gray;
+}

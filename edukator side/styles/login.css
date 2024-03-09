@@ -1,0 +1,88 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
+div#login-div{
+    /* width: 382px;*/
+         overflow: hidden;
+         /*margin: auto;
+         margin: 20  450px;*/
+         /*padding: 80px;*/
+         margin: 150px ;
+        
+ 
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+ }
+ body#login-body{
+     background-image: url('../images/pozadina.jpg');
+     background-size: cover;
+ }
+ div#inside-div{
+     background: pink;
+     border-radius: 15px ;
+         width: 500px;
+         height: 450px;
+         text-align: center;
+         margin: auto;
+         margin: 20  450px;
+         padding: 30px;
+ 
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+ 
+         font-size: larger;
+ }
+ .Uname, .Pass{
+     width: 300px;
+     height: 40px;
+     border: none;
+     border-radius: 3px;
+     padding-left: 8px;
+     border-bottom: white 1px solid;
+     background-color: pink;
+     color: white;
+     font-size: large;
+ }
+
+ .btn{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: rgb(255, 154, 170);
+    border-radius: 17px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+    cursor: pointer;
+ }
+
+ .btn::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%,-50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgb(240, 78, 105);
+    transition: width 0.5s, height 0.5s;
+
+ }
+.btn:hover::before{
+    width: 300px;
+    height: 300px;
+
+}
+.btn span{
+    position: relative;
+    z-index: 1;
+}
+ label .username-label, .pass-label{
+     margin: 20px 10px;
+     padding: 10px;
+     color: white;
+ }

@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: pink;
+    height: 100px;
+    color: white;
+}
+.logo img.log-pic {
+    width: 170px;
+    height: 150px;
+}
+nav{
+    display: flex;
+}
+nav a{
+    margin: 0 10px;
+    padding: 50px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(240, 78, 105);
+    transition: 0.5s;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+h1{
+    margin: 0px;
+    display: inline;
+}
+img.user-pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 75px;
+}
+
+#filter{
+    width: 200px;
+    height: 30px;
+    margin: 40px 10px;
+    font-size: large;
+    border: pink 2px solid;
+    cursor: pointer;
+}
+
+ div#testovi,#testovi2{
+     display: flex;
+    flex-wrap: wrap;
+} 
+.test {
+	background-color: white;
+    border: pink 2px solid;
+	border-radius: 5px;
+	/*flex-basis: 30%;*/
+	margin: 1em;
+	padding: 1em;
+    height: 180px;
+    width: 210px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.test-button {
+   
+  margin: 0 auto;
+  height: 50px;
+  width: 50px;
+}
+
+div#trenutno, #prethodni{
+    margin: 20px;
+}

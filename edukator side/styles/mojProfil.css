@@ -1,0 +1,322 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    background-color: pink;
+    height: 100px;
+    color: white;
+}
+.logo img.log-pic {
+    width: 170px;
+    height: 150px;
+}
+nav{
+    display: flex;
+}
+nav a{
+    margin: 0 10px;
+    padding: 50px;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: rgb(240, 78, 105);
+    transition: 0.5s;
+}
+.logo{
+   display: flex;
+   align-items: center;
+}
+h1{
+    margin: 0px;
+    display: inline;
+}
+img.user-pic {
+    width: 50px;
+    height: 50px;
+    margin-right: 75px;
+}
+
+.slika img{
+    width: 200px;
+    height: 200px;
+}
+
+.card{
+    margin-left: 200px;
+    margin-top: 30px;
+    width: 400px;
+    height: 800px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+}
+
+.podaci{
+    margin-top: 75px;
+    text-align: left;
+}
+
+.podaci p{
+    margin-top: 10px;
+}
+
+.underline{
+    margin-top: 5px;
+    border: 1px solid rgb(219, 115, 133);
+}
+
+.formular{
+    color: gray;
+}
+
+.ikone img{
+    margin-top: 40px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.btn img{
+    width: 20px;
+    height: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.btn-pozadina{
+    margin: auto;
+    text-align: center;
+    width: 50%;
+    margin-top: 50px;
+    padding: 10px;
+    background-color: rgb(240, 78, 105);
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.btn-pozadina:hover{
+    background-color:rgb(196, 44, 69) ;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.card1{
+    margin-left: 35%;
+    margin-top: -41.8%;
+    width: 1000px;
+    height: 450px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+}
+
+.naslov{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+.grupa{
+    position: absolute;
+    left: 80%;
+    top: 9%;
+    color: white;
+    background-color: pink;
+    padding: 1% 5% 1% 5%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.grupa:hover{
+  background-color: rgb(255, 137, 157);
+  transition: 0.5s;
+}
+.grupa img{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    left: 75%;
+    top: 30%;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+table {
+    margin-top: 40px;
+    border-collapse: collapse;
+    border-spacing: 0;
+    overflow: hidden;
+    width: 100%;
+  }
+  th {
+    background-color: rgb(240, 237, 237);
+    color: black;
+  }
+  th, td {
+    padding: 15px;
+    border: 1px solid rgb(202, 202, 202);
+    text-align: center;
+  }
+
+td img{
+    width: 45px;
+    height: 45px;
+    cursor: pointer;
+}
+
+#aktiv{
+    background-color: pink;
+    color: white;
+    padding: 1% 0% 2% 0%;
+    border-radius: 20px;
+}
+
+.card2{
+    margin-left: 35%;
+    margin-top: -17%;
+    width: 1000px;
+    height: 320px;
+    padding: 30px;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+    position: absolute;
+}
+
+div.vertical-line1{
+    width: 3px; 
+    background-color: pink; 
+    height: 70%; 
+    float: left;  
+    border-radius: 10px;
+    margin-left: 33%;
+    margin-top: 3%;
+  }
+
+  div.vertical-line2{
+    width: 3px; 
+    background-color: pink; 
+    height: 70%; 
+    float: left;  
+    border-radius: 10px;
+    margin-left: 33%;
+    margin-top: 3%;
+  }
+
+  .slika1 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: -54%;
+    margin-top: 2%;
+  }
+
+  .slika2 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: -21%;
+    margin-top: 2%;
+  }
+
+  .slika3 img{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    margin-left: 10%;
+    margin-top: 2%;
+  }
+
+  .ime1{
+    position: absolute;
+    margin-left: 87px;
+    margin-top: 13%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ime2{
+    position: absolute;
+    margin-left: 41%;
+    margin-top: 13%;
+    font-size: 18px;
+    font-weight: bold;
+  }
+
+  .ime3{
+    position: absolute;
+    margin-left: 73.2%;
+    margin-top: 13%;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .opis1{
+    position: absolute;
+    margin-left: 72px;
+    margin-top: 16%;
+    color: rgb(255, 62, 94);
+    font-weight: 500;
+  }
+
+  .opis2{
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 16%;
+    color: rgb(255, 62, 94);
+    font-weight: 500;
+  }
+  .opis3{
+    position: absolute;
+    margin-left: 71%;
+    margin-top: 16%;
+    color: rgb(255, 62, 94);
+    font-weight: 500;
+  }
+
+  .medal1 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: -47%;
+    margin-top: 7%;
+  }
+  .medal2 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: -14%;
+    margin-top: 7%;
+  }
+  .medal3 img{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    margin-left: 17%;
+    margin-top: 7%;
+  }

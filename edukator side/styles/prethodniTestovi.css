@@ -1,0 +1,46 @@
+div a#nazad{
+    margin-top: 60px;
+    margin-left: 60px;
+
+    width: 150px;
+    height: 40px;
+    background: none;
+    border: none;
+    color: black;
+    cursor: pointer;
+    font-size: x-large;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    border: 2px solid hotpink;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    
+  }
+
+  td{
+    cursor: pointer;
+  }
+  
+  th {
+    background-color: pink;
+    color: white;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
