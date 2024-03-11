@@ -62,7 +62,9 @@ div#question{
 div.pitanje-div p{
     font-weight: bold;
 }
-
+.pitanje-div span{
+    display: inline;
+}
 div label{
     padding: 0px 0px 0px 50px;
 }
@@ -97,4 +99,13 @@ div.test-info{
 }
 div.test-info p{
     padding: 5px;
+}
+
+.kocka{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background: pink;
+    margin-top: -95%;
+
 }

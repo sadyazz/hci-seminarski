@@ -2,6 +2,18 @@ var prijava =()=>{
     window.location.href = 'pocetna.html';
 }
 
+document.addEventListener('DOMContentLoaded', function() {
+  const btn = document.querySelector('.btn');
+  btn.onmousemove = function(e) {
+    const x = e.pageX - btn.offsetLeft;
+    const y = e.pageY - btn.offsetTop;
+
+    btn.style.setProperty('--x', x + 'px');
+    btn.style.setProperty('--y', y + 'px');
+  };
+});
+
+
 if (window.location.pathname.includes('login.html')) {
 function otvoriStranicu() {
   var unos = document.getElementById("tipKorisnika").value.toLowerCase();
@@ -268,3 +280,4 @@ const studentTable = document.getElementById('tabelaStudenata');
 console.log(document.getElementById('tabelaStudenata'));
 studentTable.addEventListener('click', handleStudentDetailsClick);
 }
+

@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400|Raleway:300);
 div#login-div{
     /* width: 382px;*/
          overflow: hidden;
@@ -44,17 +45,42 @@ div#login-div{
      color: white;
      font-size: large;
  }
- .log{
-     width: 100px;
-     height: 40px;
-     border: none;
-     border-radius: 17px;
-     padding: 7px;
-     color: white;
-     background-color: rgb(255, 154, 170);
-     cursor: pointer;
- 
+
+ .btn{
+    position: relative;
+    display: inline-flex;
+    padding: 10px 30px;
+    background-color: rgb(255, 154, 170);
+    border-radius: 17px;
+    color: #fff;
+    text-decoration: none;
+    letter-spacing: 1px;
+    overflow: hidden;
+    cursor: pointer;
  }
+
+ .btn::before{
+    content: '';
+    position: absolute;
+    top: var(--y);
+    left: var(--x);
+    transform: translate(-50%,-50%);
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background-color: rgb(240, 78, 105);
+    transition: width 0.5s, height 0.5s;
+
+ }
+.btn:hover::before{
+    width: 300px;
+    height: 300px;
+
+}
+.btn span{
+    position: relative;
+    z-index: 1;
+}
  label .username-label, .pass-label{
      margin: 20px 10px;
      padding: 10px;

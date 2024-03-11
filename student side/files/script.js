@@ -1,3 +1,5 @@
+
+
 if(window.location.pathname.includes('testovi.html')){
     function  stariTestovi (){
         window.location.href = 'detaljiTesta.html';
@@ -33,3 +35,4 @@ if(window.location.pathname.includes('test2.html')){
     window.location.href = 'detaljiTesta.html';
   }
 }
+
