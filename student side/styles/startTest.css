@@ -38,7 +38,7 @@ div.sve-container{
 
 .underline1, .underline2 {
     width: 100%; 
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid rgb(240, 78, 105);
     margin-top: 10px;
     margin-bottom: 20px;
     display: block;
@@ -47,7 +47,7 @@ div.sve-container{
 p.imeTesta{
     font-size: xx-large;
     font-weight: bold;
-    color: purple;
+    color: rgb(240, 78, 105);
 }
 
 .info {
@@ -68,7 +68,7 @@ p.imeTesta{
 }
 
 .start-test {
-    background-color: purple;
+    background-color: rgb(240, 78, 105);
     border: none;
     color: white;
     text-align: center;
@@ -79,4 +79,14 @@ p.imeTesta{
     padding: 10px 24px;
     text-decoration: none;
     border-radius: 10px;
+}
+
+p{
+    display: flex;
+    align-items: center;
+}
+
+img{
+    width: 30px;
+    padding: 5px;
 }

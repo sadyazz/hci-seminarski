@@ -41,7 +41,7 @@ div.sve-container{
 p.imeTesta{
     font-size: xx-large;
     font-weight: bold;
-    color: rgb(206, 123, 206);
+    color: rgb(240, 78, 105);
 }
 
 .info {
@@ -100,7 +100,7 @@ div.dugmici{
 }
 
 div.next-question, div.end, div.last-question{
-    background-color: rgb(206, 123, 206);
+    background-color: rgb(240, 78, 105);
     border: none;
     color: white;
     text-align: center;
@@ -122,7 +122,7 @@ div.next-question, div.end, div.last-question{
   }
   
   .progress {
-    background-color: rgb(206, 123, 206);
+    background-color: rgb(240, 78, 105);
     height: 20px;
     transition: width 0.5s;
     width: 0;

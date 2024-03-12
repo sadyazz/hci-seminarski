@@ -13,7 +13,7 @@
 
   
   <div class="settings-container">
-      <a href="testovi.html" id="nazad">< Nazad</a>
+      
         <div class="settings-header">
           
           <div class="settings-buttons">
@@ -27,12 +27,17 @@
         <div class="settings-form">
           <div class="form-group">
             <label for="name">Ime:</label>
-            <input type="text" id="name" placeholder="Name">
+            <input type="text" id="name" placeholder="Ime">
           </div>
 
           <div class="form-group">
             <label for="description">Opis:</label>
-            <textarea id="description" placeholder="Description"></textarea>
+            <textarea id="description" placeholder="Opis"></textarea>
+          </div>
+
+         <div class="form-group">
+            <label for="description">Kategorija:</label>
+            <input type="text" id="name" placeholder="Kategorija">
           </div>
 
           <div class="form-group">
@@ -53,9 +58,11 @@
             <input type="checkbox" id="checkbox2" onclick="handleCheckboxChange('checkbox2', 'time-limit')" checked>
           </div>
           
-          <div class="form-group">
+        
+          <div class="button-container">
             <button id="save">Spasi</button>
-          </div>
+            <button id="odustani-button">Odustani</button>
+        </div>
         </div>
       </div>
 

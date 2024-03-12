@@ -100,7 +100,7 @@ div.dugmici{
 }
 
 div.next-question, div.end{
-    background-color: rgb(206, 123, 206);
+    background-color: rgb(240, 78, 105);
     border: none;
     color: white;
     text-align: center;
@@ -122,7 +122,7 @@ div.next-question, div.end{
   }
   
   .progress {
-    background-color: rgb(206, 123, 206);
+    background-color: rgb(240, 78, 105);
     height: 20px;
     transition: width 0.5s;
     width: 0;
